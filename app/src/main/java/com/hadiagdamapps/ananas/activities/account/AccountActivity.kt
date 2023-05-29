@@ -1,16 +1,19 @@
-package com.hadiagdamapps.ananas
+package com.hadiagdamapps.ananas.activities.account
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.hadiagdamapps.ananas.R
 import com.hadiagdamapps.ananas.tools.ActivityParent
 
-class MainActivity : ActivityParent(R.layout.activity_main) {
+class AccountActivity : ActivityParent(R.layout.activity_account) {
+
 
     override fun initialView() {
-        TODO("Not yet implemented")
+
     }
 
     override fun main() {
-        TODO("Not yet implemented")
+
     }
+
 }
