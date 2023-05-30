@@ -14,7 +14,7 @@ import com.hadiagdamapps.ananas.tools.LoginModel
 import com.hadiagdamapps.ananas.tools.Server
 import java.lang.Exception
 
-class SplashActivity : ActivityParent(R.layout.activity_splash) {
+class SplashActivity : ActivityParent(R.layout.activity_login) {
 
     private lateinit var textView: TextView
     private var model: LoginModel? = null
@@ -54,6 +54,8 @@ class SplashActivity : ActivityParent(R.layout.activity_splash) {
     }
 
     override fun main() {
+
+        return
         Handler().postDelayed(
             {
                 val model = data.getLocalData()
