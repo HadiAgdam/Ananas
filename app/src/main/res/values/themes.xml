@@ -16,10 +16,17 @@
 
     <style name="Button.Primary" parent="Widget.AppCompat.Button">
 
+        <item name="android:layout_height">64dp</item>
+
     </style>
 
     <style name="Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
 
+    </style>
+
+    <style name="Text.Error" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
 </resources>
